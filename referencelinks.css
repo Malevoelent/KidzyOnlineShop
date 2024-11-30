@@ -1,0 +1,75 @@
+body{
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 198, 140);
+    margin: 0;
+    padding: 20px;
+}
+nav{
+    position:  absolute;
+    top: 0;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+nav button{
+    margin: left;
+    width: 60px;
+    height: 50px;
+    background-color: #76cdf9;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+a:link{
+    color: rgb(67, 94, 249);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(67, 94, 249);
+    text-decoration: none;
+}
+li > ul{
+    display: none
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes animation{
+    from{left: -100px;}
+    to{left: 0px;}
+}
+.reference-box {
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.reference-box a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.reference-box a:hover {
+    text-decoration: underline;
+}
+.green {
+    background-color: rgb(177, 224, 224);
+    color: black;
+}
+
+.yellow {
+    background-color: #ffc107;
+    color: #000;
+}

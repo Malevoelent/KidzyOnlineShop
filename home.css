@@ -1,0 +1,272 @@
+body{
+    overflow-x: hidden;
+    background-color: #fae590;
+}
+nav{
+    position:  absolute;
+    top: 0;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+nav button{
+    margin: left;
+    width: 60px;
+    height: 50px;
+    background-color: #76cdf9;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+a:link{
+    color: rgb(67, 94, 249);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(67, 94, 249);
+    text-decoration: none;
+}
+li > ul{
+    display: none
+}
+
+hr{
+    height:2px;
+    background-color: rgb(72, 137, 250);
+    width:95%;
+    margin-left:0
+}
+
+.introduction{
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example{
+    from{left: -100px;}
+    to{left: 0px;}
+}
+
+
+table{
+    padding-left: 130px;        
+    border-collapse: collapse;    
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+}
+td{           
+    padding: 10px;            
+}
+img {
+    border-radius: 8px;
+    width: 350px;
+    height: 300px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.flex-container img {
+   width: 200px;
+   height: 200px;
+}
+.toy10, .toy12, .toy5 {
+    flex-basis: 27%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 5px 5px 3px grey;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+.flex-container2 div {
+    flex-basis: 40%;
+}
+.flex-container img {
+    width: 200px;
+    height: 300px;
+ }
+.book1, .book2, .book3 {
+    flex-basis: 27%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px; 
+    box-shadow: 5px 5px 3px grey;
+    background-color: white;
+}
+
+.book1, .book2, .book3, h1{
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example{
+    from{left: -100px;}
+    to{left: 0px;}
+}
+
+footer{
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2c2d2d; /* Light Blue */
+    color: white; /* White Text */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #00aaff;
+}
+
+.footer-column p,
+.footer-column li {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column li a:hover {
+    color: #ffcc00;
+}
+
+.footer-bottom a {
+    color: #76cdf9;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #6a6d6b; /* A slightly darker yellow-green for contrast */
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.Inquiringminds {
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin: 50px;
+}
+.Inquiringminds a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Inquiringminds a:hover {
+    text-decoration: underline;
+}
+.Inquiringminds{
+    background-color: rgb(161, 218, 218);
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(249, 242, 233);
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 15px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px grey;
+}
+.flex-container2 img{
+    width: 300px;
+    height: 200px;
+}
+.flex-container2 div {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.movie1, .movie2, .movie3 {
+    flex-basis: 27%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px; 
+    box-shadow: 5px 5px 3px grey;
+    background-color: white;
+}

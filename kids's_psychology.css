@@ -1,0 +1,74 @@
+body{
+    overflow-x: hidden;
+}
+nav{
+    position:  absolute;
+    top: 0;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+}
+nav button{
+    margin: left;
+    width: 60px;
+    height: 50px;
+    background-color: #76cdf9;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+a:link{
+    color: rgb(67, 94, 249);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(67, 94, 249);
+    text-decoration: none;
+}
+li > ul{
+    display: none
+}
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f1be57; soft yellow */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f5dc60;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes example{
+    from{left: -100px;}
+    to{left: 0px;}
+}
+section {
+    padding: 20px;
+    background-color: #8ce3fb;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes example{
+    from{left: -100px;}
+    to{left: 0px;}
+}
+footer {
+    background-color: #f2a655;
+    text-align: center;
+    padding: 10px;
+}
